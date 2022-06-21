@@ -48,6 +48,18 @@ header h4{
     height: 350px;
     margin: 10px;
 }
+/* .p1{
+    float: right;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.p2{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: auto;
+} */
 footer{
     display: flex;
     justify-content: center;

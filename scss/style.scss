@@ -1,15 +1,63 @@
 body{
     background-color: pink;
-    div{
-        p{
-            font-family: 'Joan', serif;
+    header h3{
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+    
+    }
+    header h4{
+        display: flex;
+        justify-content: flex-start;
+        float: left;
+    }
+    h1{
+        .tamanoDeLetraTitulo{
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
         }
-        h3{
-            font-size: larger;
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        ul{
+            li{
+                .tamanoDeLetraSubtitulo{
+                    font-size: 40px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+                .colorRojo{
+                    color: black;
+                }
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    }
+    div{
+        .img1{
+            float: left;
+        }
+        .img2{
+            float: right;
+        }
+        .img{
+            border-radius: 5%;
+            width: 450px;
+            height: 350px;
+            margin: 10px;
+        }
+        .contact{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
         }
     }
 
+
+
     footer{
-        font-size: medium;
+        display: flex;
+        justify-content: center;
     }
 }
